@@ -6,7 +6,7 @@ base_dir="/usr/local/src/"
 #pcre_file="pcre-8.35.tar.gz"
 nginx_file="nginx-1.8.0.tar.gz"
 
-yum -y install zlib zlib-devel openssl openssl-devel pcre pcre-devel wget
+yum -y install zlib zlib-devel openssl openssl-devel pcre pcre-devel gcc* ncurses-devel patch wget
 
 # Install pcre(可选)_
 #echo ""
