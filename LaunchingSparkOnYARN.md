@@ -13,7 +13,7 @@
 * 设置hostname（/etc/sysconfig/network），详略；
 * 绑定主机名和对应ip（/etc/hosts），详略；
   * 172.16.60.218 master
-  * 172.16.60.219 slave1
+  * 172.16.60.219 slave1  
   * 172.16.60.220 slave2
 * ssh无密码登陆，详略；
 * 关闭防火墙
@@ -77,8 +77,8 @@ Scala code runner version 2.10.3 -- Copyright 2002-2013, LAMP/EPFL
 tar zvxf /root/work/hadoop-2.6.0.tar.gz
 ```
 ####  配置 Hadoop
-`cd /root/work/hadoop-2.6.0/etc/hadoop`进入hadoop配置目录，需要配置有以下7个文件
-* `hadoop-env.sh`
+`cd /root/work/hadoop-2.6.0/etc/hadoop`进入hadoop配置目录，需要配置有以下文件
+
 * `yarn-env.sh`
 * `slaves`
 * `core-site.xml`
@@ -261,7 +261,16 @@ cd /root/work/spark-2.0.0/sbin/
 #### 验证 Spark 是否安装成功
 
 用`jps`检查，在 master 上应该有以下几个进程：
-
-
+```
+[root@master sbin]# jps
+4116 Worker
+8260 Jps
+4021 Master
+```
 
 进入Spark的Web管理页面： [http://master:8080](http://master:8080/)
+
+
+---
+## CHANGELOG
+20160819 零丁创建
