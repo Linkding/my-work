@@ -50,7 +50,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.91-b14, mixed mode)
 
 在各个slave重复以上java部署，略。
 
-## 安装Scala
+## 安装Scala（可选）
 spark官方需要scala2.10.x以上，我这里使用scala-2.10.3，从sacla官方[下载](http://www.scala-lang.org/download/all.html).
 ```
 tar zvxf /root/work/scala-2.11.8.tgz
@@ -69,6 +69,8 @@ export PATH=$PATH:$SCALA_HOME/bin
 Scala code runner version 2.10.3 -- Copyright 2002-2013, LAMP/EPFL
 ```
 在各个slave重复以上java部署，略。
+
+`注：预编译的二进制包已包含scala运行环境，不需要另外安装Scala便可运行Spark`
 
 ##  安装配置 Hadoop YARN
 ####  下载解压
