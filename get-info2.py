@@ -4,7 +4,7 @@
 import paramiko
 port = 36000
 user = 'root'
-passwd = 'Efun@168'
+passwd = '**'
 #passwd = 'Egamehk'
 #port = 22
 out = ''
