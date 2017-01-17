@@ -4,7 +4,7 @@
   <dbdata ip="$(Public_dbip)" port="3306" loginname="$(DB_User)" loginpwd="$(DB_pwd)" dbname="gmdb" charactset="utf8" dbtype="0" />
   <base maxpalyernum ="2000" iostestver="1.0.0.0" ptgm="1" payarea="6"/>
   <google url ="http://$(WebServerIP):8060/google"/>
-  <forceupdate info="TWGtest@https://play.google.com/store/apps/details?id=com.efun.twqy,1,2;TWG@https://play.google.com/store/apps/details?id=com.efun.twqy,1,2;TWA@https://itunes.apple.com/us/app/long-zhi-gu-qi-yuan/id1163990343?l=zh&ls=1&mt=8,1,2;XGGtest@https://play.google.com/store/apps/details?id=com.efun.hkqym,1,2;XGG@https://play.google.com/store/apps/details?id=com.efun.hkqym,1,2;XGA@https://itunes.apple.com/us/app/long-zhi-gu-qi-yuan-gang-ao-ban/id1163992582?l=zh&ls=1&mt=8,1,2;"/>
+  <forceupdate info="TWGtest@https://play.google.com/store/apps/details?id=com.efun.twqy,1,2;TWG@https://play.google.com/store/apps/details?id=com.efun.twqy,1,2;TWA@https://itunes.apple.com/us/app/long-zhi-gu-qi-yuan/id1163990343?l=zh&ls=1&mt=8,1,2;TWAtest@https://itunes.apple.com/us/app/long-zhi-gu-qi-yuan/id1163990343?l=zh&ls=1&mt=8,1,2;XGGtest@https://play.google.com/store/apps/details?id=com.efun.hkqym,1,2;XGG@https://play.google.com/store/apps/details?id=com.efun.hkqym,1,2;XGA@https://itunes.apple.com/us/app/long-zhi-gu-qi-yuan-gang-ao-ban/id1163992582?l=zh&ls=1&mt=8,1,2;"/>
     <!--
   <notice loginurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" loginshow="1" playurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm"  playshow="1" />
   <adr version="$(Public_Ver)" path="$(res_URL_android)" dllsize="1024" />
@@ -18,22 +18,22 @@
       <notice id="2" loginurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" loginshow="1" playurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" playshow="1"/>
       <servers>
         <info name1="臺灣伺服器（简）" name2="黑山山角（繁）" name3="臺灣伺服器(En)" name4="臺灣伺服器(한)" payswitch="1" areaid="2" groupid="6" svruniqueid="2" ios_ver="0.10007.0.51752" adr_ver="0.0.10003.51241" srcpath="https://lzgtw-download.vsplay.com/lzg/data/res_TW/"/>
-        <info name1="S1服臺灣" name2="阿依琳" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="$(TWA_S17)" adr_ver="$(TWO_S18)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/>
-        <!--info name1="S1服臺灣" name2="杰倫特" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="$(TWA_S17)" adr_ver="$(TWO_S18)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/-->
-        <!--info name1="S1服臺灣" name2="亞勒詹達" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="$(TWA_S17)" adr_ver="$(TWO_S18)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/-->
-        <!--info name1="S1服臺灣" name2="戰士施恩" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="9" svruniqueid="9" ios_ver="$(TWA_S17)" adr_ver="$(TWO_S18)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/-->
-        <!--info name1="S1服臺灣" name2="特里亞那" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="10" svruniqueid="10" ios_ver="$(TWA_S17)" adr_ver="$(TWO_S18)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/-->
+        <info name1="S1服臺灣" name2="阿依琳" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="0.10008.0.51959" adr_ver="0.0.10016.52050" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/>
+        <!--info name1="S1服臺灣" name2="杰倫特" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="0.10008.0.51814" adr_ver="0.0.10016.52050" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/-->
+         <!--info name1="S1服臺灣" name2="亞勒詹達" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="0.10008.0.51814" adr_ver="0.0.10016.52050" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/-->
+        <!--info name1="S1服臺灣" name2="戰士施恩" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="9" svruniqueid="9" ios_ver="0.10008.0.51814" adr_ver="0.0.10016.52050" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/-->
+        <!--info name1="S1服臺灣" name2="特里亞那" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="10" svruniqueid="10" ios_ver="0.10008.0.51814" adr_ver="0.0.10016.52050" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/-->
       </servers>
     </area>
     <area>
       <base id="TWG" state="0" force="0" adr_ver="1.0.0.0" ios_ver="1.0.0.1" iostestver="1.0.0.1" srcpath="http://61.129.46.203:8010"/>
       <notice id="2" loginurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" loginshow="1" playurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" playshow="1"/>
       <servers>
-        <info name1="S1服臺灣" name2="阿依琳" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="1.0.0.1" adr_ver="$(TWG_S16)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/>
-        <!--info name1="S1服臺灣" name2="杰倫特" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="1.0.0.1" adr_ver="$(TWG_S16)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/-->
-        <!--info name1="S1服臺灣" name2="亞勒詹達" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="1.0.0.1" adr_ver="$(TWG_S16)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/-->
-        <!--info name1="S1服臺灣" name2="戰士施恩" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="9" svruniqueid="9" ios_ver="1.0.0.1" adr_ver="$(TWG_S16)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/-->
-        <!--info name1="S1服臺灣" name2="特里亞那" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="10" svruniqueid="10" ios_ver="1.0.0.1" adr_ver="$(TWG_S16)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/-->
+        <info name1="S1服臺灣" name2="阿依琳" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="0.10008.0.51814" adr_ver="0.0.10017.52048" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/>
+        <!--info name1="S1服臺灣" name2="杰倫特" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="1.0.0.1" adr_ver="0.0.10017.52048" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/-->
+        <!--info name1="S1服臺灣" name2="亞勒詹達" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="1.0.0.1" adr_ver="0.0.10017.52048" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/-->
+        <!--info name1="S1服臺灣" name2="戰士施恩" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="9" svruniqueid="9" ios_ver="1.0.0.1" adr_ver="0.0.10017.52048" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/-->
+        <!--info name1="S1服臺灣" name2="特里亞那" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="10" svruniqueid="10" ios_ver="1.0.0.1" adr_ver="0.0.10017.52048" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/-->
       </servers>
     </area>
     <area>
@@ -41,42 +41,42 @@
       <notice id="2" loginurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" loginshow="1" playurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" playshow="1"/>
       <servers>
         <info name1="香港伺服器（简）" name2="蓮花沼澤（繁）" name3="香港伺服器(En)" name4="香港伺服器(한)" payswitch="1" areaid="2" groupid="5" svruniqueid="3"  ios_ver="0.10007.0.51750" adr_ver="0.0.969.51076" srcpath="https://lzgtw-download.vsplay.com/lzg/data/res_HK/"/>
-        <info name1="S1服香港" name2="阿依琳" name3="S1服香港" name4="S1服香港" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="$(XGA_S20)" adr_ver="$(XGG_S19)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/>
-        <!--info name1="S1服香港" name2="杰倫特" name3="S1服香港" name4="S1服香港" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="$(XGA_S20)" adr_ver="$(XGG_S19)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/-->
-        <!--info name1="S1服香港" name2="亞勒詹達" name3="S1服香港" name4="S1服香港" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="$(XGA_S20)" adr_ver="$(XGG_S19)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/-->
-        <!--info name1="S1服香港" name2="戰士施恩" name3="S1服香港" name4="S1服香港" payswitch="1" areaid="2" groupid="9" svruniqueid="9" ios_ver="$(XGA_S20)" adr_ver="$(XGG_S19)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/-->
-        <!--info name1="S1服香港" name2="特里亞那" name3="S1服香港" name4="S1服香港" payswitch="1" areaid="2" groupid="10" svruniqueid="10" ios_ver="$(XGA_S20)" adr_ver="$(XGG_S19)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/-->
+        <info name1="S1服香港" name2="阿依琳" name3="S1服香港" name4="S1服香港" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="0.10007.0.51969" adr_ver="0.0.10016.52046" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/>
+         <!--info name1="S1服香港" name2="杰倫特" name3="S1服香港" name4="S1服香港" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="0.10007.0.51821" adr_ver="0.0.10016.52046" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/-->
+        <!--info name1="S1服香港" name2="亞勒詹達" name3="S1服香港" name4="S1服香港" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="0.10007.0.51821" adr_ver="0.0.10016.52046" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/-->
+        <!--info name1="S1服香港" name2="戰士施恩" name3="S1服香港" name4="S1服香港" payswitch="1" areaid="2" groupid="9" svruniqueid="9" ios_ver="0.10007.0.51821" adr_ver="0.0.10016.52046" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/-->
+        <!--info name1="S1服香港" name2="特里亞那" name3="S1服香港" name4="S1服香港" payswitch="1" areaid="2" groupid="10" svruniqueid="10" ios_ver="0.10007.0.51821" adr_ver="0.0.10016.52046" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/-->
       </servers>
     </area>
 
     <area>
-      <base id="TWOtest,TWAtest" state="1" force="0" adr_ver="1.0.0.0" ios_ver="1.0.0.1" iostestver="0.10007.0.51752" srcpath="http://61.129.46.203:8010"/>
+      <base id="TWOtest,TWAtest" state="1" force="0" adr_ver="1.0.0.0" ios_ver="1.0.0.1" iostestver="1.0.0.1" srcpath="http://61.129.46.203:8010"/>
       <notice id="2" loginurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" loginshow="1" playurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" playshow="1"/>
       <servers>
-        <info name1="臺灣伺服器（简）" name2="黑山山角（繁）" name3="臺灣伺服器(En)" name4="臺灣伺服器(한)" payswitch="1" areaid="2" groupid="6" svruniqueid="2" ios_ver="0.10007.0.51752" adr_ver="0.0.10015.51958" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/>
-        <info name1="S1服臺灣" name2="阿依琳" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="$(efun_TWA)" adr_ver="$(efun_TWO)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/>
-        <info name1="S1服臺灣" name2="杰倫特" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="$(efun_TWA)" adr_ver="$(efun_TWO)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/>
-        <info name1="S1服臺灣" name2="亞勒詹達" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="$(efun_TWA)" adr_ver="$(efun_TWO)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/>
+        <!--info name1="臺灣伺服器（简）" name2="黑山山角（繁）" name3="臺灣伺服器(En)" name4="臺灣伺服器(한)" payswitch="1" areaid="2" groupid="6" svruniqueid="2" ios_ver="0.10007.0.51752" adr_ver="0.0.10015.51958" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/-->
+        <info name1="S1服臺灣" name2="阿依琳" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="0.10007.0.51752" adr_ver="0.0.10013.51806" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/>
+         <info name1="S1服臺灣" name2="杰倫特" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="0.10007.0.51752" adr_ver="0.0.10013.51806" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/>
+         <info name1="S1服臺灣" name2="亞勒詹達" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="0.10007.0.51752" adr_ver="0.0.10011.51619" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TW/"/>
       </servers>
     </area>
     <area>
       <base id="TWGtest" state="1" force="0" adr_ver="1.0.0.0" ios_ver="1.0.0.1" iostestver="1.0.0.1" srcpath="http://116.211.24.38:8020"/>
       <notice id="5" loginurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" loginshow="1" playurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" playshow="1"/>
       <servers>
-        <info name1="S1服臺灣" name2="阿依琳" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="1.0.0.1" adr_ver="$(efun_TWG)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/>
-        <info name1="S1服臺灣" name2="杰倫特" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="1.0.0.1" adr_ver="$(efun_TWG)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/>
-        <info name1="S1服臺灣" name2="亞勒詹達" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="1.0.0.1" adr_ver="$(efun_TWG)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/>
-        <info name1="S1服臺灣" name2="戰士施恩" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="9" svruniqueid="9" ios_ver="1.0.0.1" adr_ver="$(efun_TWG)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/>
+        <info name1="S1服臺灣" name2="阿依琳" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="0.457.0.51085" adr_ver="0.0.10012.51664" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/>
+        <info name1="S1服臺灣" name2="杰倫特" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="0.457.0.51085" adr_ver="0.0.10012.51664" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/>
+        <info name1="S1服臺灣" name2="亞勒詹達" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="0.457.0.51085" adr_ver="0.0.10012.51664" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/>
+        <info name1="S1服臺灣" name2="戰士施恩" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="9" svruniqueid="9" ios_ver="0.457.0.51085" adr_ver="0.0.10012.51664" srcpath="https://lzg-download.efuntw.com/lzg/data/res_TWG/"/>
       </servers>
     </area>
      <area>
       <base id="XGGtest,XGAtest" state="1" force="0" adr_ver="1.0.0.0" ios_ver="1.0.0.1" iostestver="1.0.0.1" srcpath="http://116.211.24.38:8020"/>
       <notice id="4" loginurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" loginshow="1" playurl="http://twebdesign.hd.sdo.com/project/dno/GameNotice/index.htm" playshow="1"/>
       <servers>
-        <info name1="S1服臺灣" name2="阿依琳" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="$(efun_XGA)" adr_ver="$(efun_XGG)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/>
-        <info name1="S1服臺灣" name2="杰倫特" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="$(efun_XGA)" adr_ver="$(efun_XGG)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/>
-        <info name1="S1服臺灣" name2="亞勒詹達" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="$(efun_XGA)" adr_ver="$(efun_XGG)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/>
-        <info name1="S1服臺灣" name2="戰士施恩" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="9" svruniqueid="9" ios_ver="$(efun_XGA)" adr_ver="$(efun_XGG)" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/>
+        <info name1="S1服臺灣" name2="阿依琳" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="4" svruniqueid="1" ios_ver="0.10007.0.51750" adr_ver="0.0.10012.51655" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/>
+        <info name1="S1服臺灣" name2="杰倫特" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="7" svruniqueid="7" ios_ver="0.10007.0.51750" adr_ver="0.0.10012.51655" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/>
+        <info name1="S1服臺灣" name2="亞勒詹達" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="8" svruniqueid="8" ios_ver="0.10007.0.51750" adr_ver="0.0.10012.51655" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/>
+        <info name1="S1服臺灣" name2="戰士施恩" name3="S1服臺灣" name4="S1服臺灣" payswitch="1" areaid="2" groupid="9" svruniqueid="9" ios_ver="0.10007.0.51750" adr_ver="0.0.10012.51655" srcpath="https://lzg-download.efuntw.com/lzg/data/res_HK/"/>
       </servers>
     </area>
   </platform>
