@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<actnotice>
+		<picture atlas="notice_bk/notice_bk_2" pictureName="notice_bk_x_1" linktype="2" link="https://forum.gamer.com.tw/A.php?bsn=28527" />
+		<picture atlas="notice_bk/notice_bk_1" pictureName="notice_bk_4_1" linktype="1" link="4" />
+		<picture atlas="notice_bk/notice_bk_1" pictureName="notice_bk_2_1" linktype="1" link="2" />
+	</actnotice>
+	<updatenotice>
+		<notice title="[b]《龍之谷：無盡之戰》火爆開啟[/b]" content="歡迎冒險家們來到阿堤依亞，我們為冒險者們準備了一大波精彩活動，幫助冒險家輕鬆愉快進行冒險！\n\n[b][c][ffc852]活動一：累計儲值[-][/c][/b]\n活動時間：[b][c][3ce9fe] 1月17日00:01-1月26日05:00[-][/c][/b]\n活動內容：活動時間內，累計儲值達到指定額度，即可領取豐厚獎勵。\n\n[b][c][ffc852]活動二：七日簽到[-][/c][/b]\n活動內容：次日登入送S級英雄安傑利卡，七天送稀有神器“純白之球”。\n\n[b][c][ffc852]活動三：開服七天嘉年華[-][/c][/b]\n活動內容：每天不同任務，大量獎勵輕鬆拿，更有S級英雄碎空，機不可失。\n\n[b][c][ffc852]活動四：沖榜領豪禮[-][/c][/b]\n活動時間：[b][c][3ce9fe]開服前7天[-][/c][/b]\n活動內容：開服七天後結算戰力、等級、家園排行榜，上榜玩家將獲得高額獎勵喔。\n\n[b][c][ffc852]活動五：成長基金[-][/c][/b]\n活動內容花費1000鑽購買，6倍返利累計可獲得6000鑽不容錯過。\n\n[b][c][ffc852]活動六：衝級獎勵[-][/c][/b]\n達到指定等級領取大量獎勵，前500人還能獲得雙倍獎勵喔。\n\n[b][c][ffc852]活動七：返利卡[-][/c][/b]\n購買返利卡，連續30天每天領取120鑽石，總共3600鑽超實惠。\n\n[b][c][ffc852]活動八：首儲翻倍[-][/c][/b]\n使用商店第一筆儲值可獲得100%返點。" />
+	</updatenotice>
+</config>
