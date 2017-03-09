@@ -6,3 +6,6 @@ git commit -m "update main.py"
 
 * 推送到远程主仓库
 git push origin master
+
+* 获取主仓库最新变动
+git pull
